@@ -1,5 +1,6 @@
 import { Box, Flex, SimpleGrid, Text, theme } from "@chakra-ui/react";
 import dynamic from 'next/dynamic';
+import { ApexOptions } from 'apexcharts'
 import { Header } from "../components/Header";
 import { Sidebar } from "../components/Sidebar";
 
@@ -54,7 +55,7 @@ const options = {
     },
 
   },
-};
+} as ApexOptions;
 
 const series = [
   { name: 'series1', data: [31, 120, 10, 28, 61, 18, 109] }
