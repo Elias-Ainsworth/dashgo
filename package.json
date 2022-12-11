@@ -14,6 +14,7 @@
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
     "@hookform/resolvers": "^2.9.10",
+    "@tanstack/react-query": "^4.19.1",
     "@types/node": "^18.11.9",
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.9",
@@ -25,7 +26,13 @@
     "react-dom": "^18.2.0",
     "react-hook-form": "7.32.0",
     "react-icons": "^4.6.0",
+    "react-query": "^3.39.2",
     "typescript": "^4.9.3",
     "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "@types/faker": "^6.6.9",
+    "miragejs": "^0.1.46"
   }
 }
